@@ -30,7 +30,7 @@ nav {
 }
 			@font-face {
 				font-family: 'XBand';
-				src: url("/assets/XBANDRough.ttf") format('truetype');
+				src: url("../assets/XBANDRough.ttf") format('truetype');
             }
 .xband{
     font-family: "XBand", sans-serif;
