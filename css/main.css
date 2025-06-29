@@ -1,0 +1,37 @@
+main {
+    background-image: url(https://t4.ftcdn.net/jpg/04/29/05/71/360_F_429057142_xSVa3ETmVws8KlFYPTJKa8TE3m8sDgK1.jpg);
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+article {
+    width: 100%;
+    border-radius: 5px;
+    border: 15px;
+    border-style: inset;
+    background-color: pink;
+}
+
+nav {
+    align-content: center;
+    align-items: center;
+}
+
+#column2 {
+    columns: 2;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#title {
+    align-content: center;
+    text-align: center;
+}
+			@font-face {
+				font-family: 'XBand';
+				src: url("./assets/XBANDRough.ttf") format('truetype');
+            }
+.xband{
+    font-family: "XBand", sans-serif;
+}
