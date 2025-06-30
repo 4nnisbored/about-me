@@ -7,10 +7,6 @@ main {
 
 article {
     width: 100%;
-    border-radius: 5px;
-    border: 15px;
-    border-style: inset;
-    background-color: pink;
 }
 
 nav {
@@ -22,6 +18,12 @@ nav {
     columns: 2;
     max-width: 1200px;
     margin: auto;
+    height: max-content;
+}
+
+#column2 figure {
+    height: 100%;
+    break-inside: avoid;
 }
 
 #title {
@@ -34,4 +36,27 @@ nav {
             }
 .xband{
     font-family: "XBand", sans-serif;
+}
+
+#feather {
+    width: max-content;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    z-index: 1;
+    animation: feather 12s ease-in-out infinite;
+}
+
+@keyframes feather {
+    0% {
+        transform: translateY(0%);
+    }
+
+    50% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
 }
