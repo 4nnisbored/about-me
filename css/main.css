@@ -63,7 +63,8 @@ nav {
     }
 }
 
-#lastfm {
+iframe {
     width: 100%;
     overflow: hidden;
+    height: fit-content;
 }
