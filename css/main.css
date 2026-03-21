@@ -66,5 +66,8 @@ nav {
 iframe {
     width: 100%;
     overflow: hidden;
-    height: fit-content;
+    height: 325px;
+    pointer-events: none;
+    border-radius: 5px;
+    border: 0px;
 }
