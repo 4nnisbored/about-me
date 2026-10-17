@@ -1,0 +1,23 @@
+* {
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+article {
+    max-width: 600px;
+    margin: auto;
+    color: white;
+}
+
+h6 {
+    padding-bottom: 4rem;
+}
+
+p {
+    padding-bottom: 1.44rem;
+    font-size: large;
+}
+
+a {
+    color: white;
+    font-size: xx-large;
+}
